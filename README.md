@@ -1,24 +1,17 @@
-# README
+# Simple API which returns json data
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## API Endpoints
 
-Things you may want to cover:
+| HTTP Method | ENDPOINT  | USAGE  | RETURNS |
+|-------------|-----------|--------|:---------:|
+GET  | /api/cats | get collection of cats | cats |
+GET | /api/cats/{:id} | get cat by its id | cat |
 
-* Ruby version
 
-* System dependencies
+## Usage examples
 
-* Configuration
+### Get collection of cats
+Send GET request to `https://ma-cats-api.herokuapp.com/api/cats`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Get specific cat by id
+Send GET request to `https://ma-cats-api.herokuapp.com/api/cats/2` to get cat with id=2
