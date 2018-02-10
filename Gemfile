@@ -1,5 +1,6 @@
 gem 'rails', '~> 5.1.4'
 gem 'dotenv-rails'
+gem 'kaminari'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.7'
 
